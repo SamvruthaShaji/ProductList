@@ -1,0 +1,90 @@
+.todo {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .todo h4 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .todo form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .todo button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo span {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .todo span.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo .delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo .delete:hover {
+    background-color: #c82333;
+  }
+  
